@@ -5,7 +5,7 @@
 
 ## Getting Started
 
-`src/app/page.tsx`を編集する前に、以下の手順を行ってください。  
+`src/app/page.tsx`を編集する前に、以下の手順を行ってください。 
 ※Next.js、及びTailwindCSSを理解していることを推奨します！
 1. このリポジトリをforkし、`npm i`で必要なライブラリをインストールする。
 2. `src/config/site.ts`を編集し、Webサイトのメタデータを編集する。
