@@ -100,7 +100,7 @@ export default function Home() {
           </LinkCard>
           <LinkCard
             className='col-span-12 md:col-span-6 lg:col-span-4 hover:border-black dark:hover:border-gray-500 p-6'
-            href='https://nonick-js.com'
+            href='https://nonick-js.com/'
             isGrid
           >
             <img
