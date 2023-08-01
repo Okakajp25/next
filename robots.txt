@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 
-Sitemap: https://nonick-mc.com/sitemap.xml
+Sitemap: https://okaka.me/sitemap.xml
