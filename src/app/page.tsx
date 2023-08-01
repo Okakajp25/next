@@ -24,7 +24,7 @@ export default function Home() {
             <div className='grid gap-1'>
               <div className='flex gap-2 items-center text-muted-foreground'>
                 <FaBirthdayCake/>
-                <p>200X年10月17日</p>
+                <p>200X年02月25日</p>
               </div>
               <div className='flex gap-2 items-center text-muted-foreground'>
                 <FaLocationArrow/>
@@ -38,33 +38,33 @@ export default function Home() {
           </FadeUpDiv>
           <LinkCard 
             className='col-span-12 md:col-span-6 lg:col-span-4 hover:border-youtube p-6'
-            href='https://youtube.com/nonick_mc'
+            href='https://youtube.com/okakajp'
             isGrid
           >
             <LinkCardIcon className='bg-youtube'>
               <FaYoutube size={25}/>
             </LinkCardIcon>
-            <LinkCardName name='YouTube' id='@nonick_mc'/>
+            <LinkCardName name='YouTube' id='@okakajp'/>
           </LinkCard>
           <LinkCard
             className='col-span-6 md:col-span-3 lg:col-span-2 hover:border-twitter p-6'
-            href='https://twitter.com/nonick_mc'
+            href='https://twitter.com/okakajp25'
             isGrid
           >
             <LinkCardIcon className='bg-twitter'>
               <FaTwitter size={25}/>
             </LinkCardIcon>
-            <LinkCardName name='Twitter' id='@nonick_mc'/>
+            <LinkCardName name='Twitter' id='@okakajp25'/>
           </LinkCard>
           <LinkCard
             className='col-span-6 md:col-span-3 lg:col-span-2 hover:border-discord p-6'
-            href='https://discord.gg/nonick-mc'
+            href='https://discord.gg/fbUhAxTAHx'
             isGrid
           >
             <LinkCardIcon className='bg-discord'>
               <FaDiscord size={25}/>
             </LinkCardIcon>
-            <LinkCardName name='Discord' id='@nonick_mc'>
+            <LinkCardName name='Discord' id='@okakajp25'>
               <DiscordPartnerIcon/>
             </LinkCardName>
           </LinkCard>
@@ -72,26 +72,26 @@ export default function Home() {
             <LinkCardIcon className='bg-xbox'>
               <FaXbox size={25}/>
             </LinkCardIcon>
-            <LinkCardName name='Xbox' id='NULL1017'/>
+            <LinkCardName name='Xbox' id='Okakajp'/>
           </FadeUpCard>
           <LinkCard
             className='grid gap-3 md:col-span-3 col-span-6 lg:col-span-2 hover:border-steam p-6'
-            href='https://steamcommunity.com/id/nonick-mc/'
+            href='https://steamcommunity.com/id/okakajp/'
           >
             <LinkCardIcon className='bg-steam'>
               <FaSteam size={25}/>
             </LinkCardIcon>
-            <LinkCardName name='Steam' id='NULL1017'/>
+            <LinkCardName name='Steam' id='Okakajp'/>
           </LinkCard>
           <LinkCard
             className='flex justify-between col-span-12 md:col-span-6 lg:col-span-4 hover:border-black dark:hover:border-gray-500 p-6'
-            href='https://github.com/nonick-mc'
+            href='https://github.com/Oakakjp25'
           >
             <div className='grid gap-3'>
               <LinkCardIcon className='bg-github'>
                 <FaGithub size={25}/>
               </LinkCardIcon>
-              <LinkCardName name='GitHub' id='@nonick-mc'/>
+              <LinkCardName name='GitHub' id='@okakajp25'/>
             </div>
             <div className='grid grid-cols-2 gap-3'>
               <img className='w-8 h-8' src='/programLangs/JavaScript.svg' alt='javascript'/>
