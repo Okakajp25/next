@@ -4,6 +4,6 @@ export const siteConfig: SiteConfig = {
   metadata: {
     name: 'おかか',
     description: 'なんちゃってプログラマー',
-    url: 'https://okaka.me'
+    url: 'http://okakaservice.com'
   }
 }
