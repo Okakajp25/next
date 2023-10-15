@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 
-Sitemap: https://okaka.me/sitemap.xml
+Sitemap: http://okakaservice.com/sitemap.xml
