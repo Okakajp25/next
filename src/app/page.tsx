@@ -129,7 +129,7 @@ export default function Home() {
             <img
             className='w-10 h-10 rounded-2x1'
             src='/icons/IMG_8726.png'
-            alt='okaka site'
+            alt='okakas site'
             />
           </LinkCard>
         </div>
