@@ -121,6 +121,17 @@ export default function Home() {
             />
             <LinkCardName name='NoNICK.stats' id='The HIVEサーバーの統計を表示するDiscordBOT'/>
           </LinkCard>
+          <LinkCard
+          className='col-span-12 md:col-span-6 lg:col-span-4 hover:border-black dark:hover:border-gray-500 p-6'
+          herf='https://www.okakaservice.com'
+          isGrid
+          >
+            <img
+            className='w-10 h-10 rounded-2x1'
+            sec='/icons/IMG_8726.png'
+            alt='okaka site'
+            />
+          </LinkCard>
         </div>
       </FadeUpStagger>
     </main>
