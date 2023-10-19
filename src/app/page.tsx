@@ -99,30 +99,6 @@ export default function Home() {
           </LinkCard>
           <LinkCard
             className='col-span-12 md:col-span-6 lg:col-span-4 hover:border-black dark:hover:border-gray-500 p-6'
-            href='https://nonick-js.com/'
-            isGrid
-          >
-            <img
-              className='w-10 h-10 rounded-2xl'
-              src='/icons/nonickjs.png'
-              alt='nonick.js icon'
-            />
-            <LinkCardName name='NoNICK.js' id='サーバー管理に役立つ多機能DiscordBot'/>
-          </LinkCard>
-          <LinkCard
-            className='col-span-12 md:col-span-6 lg:col-span-4 hover:border-black dark:hover:border-gray-500 p-6'
-            href='https://github.com/nonick-mc/nonick.stats'
-            isGrid
-          >
-            <img
-              className='w-10 h-10 rounded-2xl'
-              src='/icons/nonickstats.png'
-              alt='nonick.stats icon'
-            />
-            <LinkCardName name='NoNICK.stats' id='The HIVEサーバーの統計を表示するDiscordBOT'/>
-          </LinkCard>
-          <LinkCard
-            className='col-span-12 md:col-span-6 lg:col-span-4 hover:border-black dark:hover:border-gray-500 p-6'
             href='https://git.okakaservice.com'
             isGrid
           >
