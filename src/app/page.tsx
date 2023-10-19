@@ -38,7 +38,7 @@ export default function Home() {
           </FadeUpDiv>
           <LinkCard 
             className='col-span-12 md:col-span-6 lg:col-span-4 hover:border-youtube p-6'
-            href='https://youtube.com/okakajp'
+            href='https://youtube.com/@okakajp'
             isGrid
           >
             <LinkCardIcon className='bg-youtube'>
@@ -84,7 +84,7 @@ export default function Home() {
           </LinkCard>
           <LinkCard
             className='flex justify-between col-span-12 md:col-span-6 lg:col-span-4 hover:border-black dark:hover:border-gray-500 p-6'
-            href='https://github.com/Oakakjp25'
+            href='https://github.com/Okakajp25'
           >
             <div className='grid gap-3'>
               <LinkCardIcon className='bg-github'>
