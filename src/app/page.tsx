@@ -109,6 +109,18 @@ export default function Home() {
             />
             <LinkCardName name='Okaka test button' id='おかかが作ったテスト用ボタンです' />
           </LinkCard>
+          <LinkCard
+            className='col-span-12 md:col-span-6 lg:col-span-4 hover:border-black dark:hover:border-gray-500 p-6'
+            href='https://servers.okakaservice.com'
+            isGrid
+          >
+            <img
+            className='w-10 h-10 rounded-2x1'
+            src='/icons/IMG_8726.png'
+            alt='okaka server list'
+            />
+            <LinkCardName name='自分が少しでも携わっているサーバー' id='自分が少しでも携わっているサーバーのリストです' />
+          </LinkCard>
         </div>
       </FadeUpStagger>
     </main>
