@@ -98,6 +98,28 @@ export default function Home() {
             </div>
           </LinkCard>
           <LinkCard
+          className='grid gap-3 col-span-6 md:col-span-3 lg:col-span-2 hover:border-xbox p-6'
+          herf='https://qiita.com/okakajp_25'
+          >
+            <img
+            className='w-10 h-10 rounded-2x1'
+            src='/icons/qiita.png'
+            alt='qitta'
+            />
+            <LinkCardName name='okaka qiita' id='okaka qiita' />
+          </LinkCard>
+          <LinkCard
+          className='grid gap-3 col-span-6 md:col-span-3 lg:col-span-2 hover:border-xbox p-6'
+          herf='https://note.com/okakajp_25'
+          >
+            <img
+            className='w-10 h-10 rounded-2x1'
+            src='/icons/note.png'
+            alt='qitta'
+            />
+            <LinkCardName name='okaka note' id='okaka note' />
+          </LinkCard>
+          <LinkCard
             className='col-span-12 md:col-span-6 lg:col-span-4 hover:border-black dark:hover:border-gray-500 p-6'
             href='https://git.okakaservice.com'
             isGrid
