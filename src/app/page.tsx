@@ -121,18 +121,6 @@ export default function Home() {
           </LinkCard>
           <LinkCard
             className='col-span-12 md:col-span-6 lg:col-span-4 hover:border-black dark:hover:border-gray-500 p-6'
-            href='https://git.okakaservice.com'
-            isGrid
-          >
-            <img
-            className='w-10 h-10 rounded-2x1'
-            src='/icons/IMG_8726.png'
-            alt='okakas site'
-            />
-            <LinkCardName name='Okaka test button' id='おかかが作ったテスト用ボタンです' />
-          </LinkCard>
-          <LinkCard
-            className='col-span-12 md:col-span-6 lg:col-span-4 hover:border-black dark:hover:border-gray-500 p-6'
             href='https://servers.okakaservice.com'
             isGrid
           >
