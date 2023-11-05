@@ -18,7 +18,7 @@ export default function Home() {
           <FadeUpDiv className='col-span-12 lg:col-span-4 row-span-3 space-y-5 md:space-y-7 lg:space-y-8'>
             <img className='w-[150px] lg:w-[200px] pointer-events-none rounded-full shadow-xl' src='/icons/nonick.png' alt="nonick's avatar"/>
             <section>
-              <h1 className='text-3xl lg:text-4xl font-black'>Okakajp</h1>
+              <h1 className='text-3xl lg:text-4xl font-black'>Okakajp(おかーか)</h1>
               <h2 className='text-muted-foreground text-lg lg:text-xl'>にわかプログラマー</h2>
             </section>
             <div className='grid gap-1'>
