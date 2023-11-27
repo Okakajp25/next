@@ -99,6 +99,17 @@ export default function Home() {
           </LinkCard>
           <LinkCard
           className='grid gap-3 col-span-6 md:col-span-3 lg:col-span-2 hover:border-xbox p-6'
+          href='https://misskey.io/@okakajp'
+          >
+            <img
+            className='w-10 h-10 rounded-2x1'
+            src='/icons/misskey.png'
+            alt='misskey'
+            />
+            <LinkCardName name='okaka misskey' id='okaka misskey' />
+          </LinkCard>
+          <LinkCard
+          className='grid gap-3 col-span-6 md:col-span-3 lg:col-span-2 hover:border-xbox p-6'
           href='https://qiita.com/okakajp_25'
           >
             <img
