@@ -132,7 +132,7 @@ export default function Home() {
           </LinkCard>
           <LinkCard
             className='col-span-12 md:col-span-6 lg:col-span-4 hover:border-black dark:hover:border-gray-500 p-6'
-            href='https://servers.okakey.com'
+            href='https://servers.okakey.com/'
             isGrid
           >
             <img
