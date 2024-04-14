@@ -6,6 +6,7 @@ import { LinkCard } from '@/components/link-card';
 import { DiscordPartnerIcon } from '@/components/logo';
 import { ThemeToggle } from '@/components/theme-toggle';
 import { FaBirthdayCake, FaDiscord, FaGithub, FaLocationArrow, FaSteam, FaTwitter, FaUserGraduate, FaXbox, FaYoutube } from 'react-icons/fa';
+import { PiButterfly } from 'react-icons/pi'
 
 export default function Home() {
   return (
@@ -97,6 +98,17 @@ export default function Home() {
               <img className='w-8 h-8' src='/programLangs/TypeScript.svg' alt='typescript'/>
             </div>
           </LinkCard>
+          <LinkCard
+            className='grid gap-3 col-span-6 md:col-span-3 lg:col-span-2 hover:border-discord p-6'
+            href='https://bsky.app/profile/okakey.com'
+            isGrid
+          >
+            <LinkCardIcon className='bg-discord'>
+              <PiButterfly size={25}/>
+            </LinkCardIcon>
+            <LinkCardName name='okaka bluesky' id='okaka bluesky' />
+          </LinkCard>
+          
           <LinkCard
           className='grid gap-3 col-span-6 md:col-span-3 lg:col-span-2 hover:border-xbox p-6'
           href='https://misskey.io/@okakajp'
