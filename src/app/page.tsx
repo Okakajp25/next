@@ -153,7 +153,6 @@ export default function Home() {
             />
             <LinkCardName name='自分が少しでも携わっているサーバー' id='自分が少しでも携わっているサーバーのリストです' />
           </LinkCard>
-          <blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:4bbnhkaj2aryn47x3ezpr5p5/app.bsky.feed.post/3kpofecaz7p2m" data-bluesky-cid="bafyreiezfgxobi2zpjuywpq4nigzagwn7jaje4tkqrlkoybhkieeophauy"><p lang="ja">http apiで特定のハッシュタグがあるポストを取得してその投稿の中の日付をゲットして自作dbに保存して特定の日にメンションというかこっちがポストしてみんなで祝える見ないなの出来るかな</p>&mdash; Okaka25 (<a href="https://bsky.app/profile/did:plc:4bbnhkaj2aryn47x3ezpr5p5?ref_src=embed">@okakey.com</a>) <a href="https://bsky.app/profile/did:plc:4bbnhkaj2aryn47x3ezpr5p5/post/3kpofecaz7p2m?ref_src=embed">Apr 9, 2024 at 14:02</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
         </div>
       </FadeUpStagger>
     </main>
