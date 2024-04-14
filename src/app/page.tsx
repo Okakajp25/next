@@ -110,17 +110,6 @@ export default function Home() {
           </LinkCard>
           <LinkCard
           className='grid gap-3 col-span-6 md:col-span-3 lg:col-span-2 hover:border-xbox p-6'
-          href='https://qiita.com/okakajp_25'
-          >
-            <img
-            className='w-10 h-10 rounded-2x1'
-            src='/icons/qiita.png'
-            alt='qitta'
-            />
-            <LinkCardName name='okaka qiita' id='okaka qiita' />
-          </LinkCard>
-          <LinkCard
-          className='grid gap-3 col-span-6 md:col-span-3 lg:col-span-2 hover:border-xbox p-6'
           href='https://misskey.io/@okakajp25'
           >
             <img
@@ -129,6 +118,17 @@ export default function Home() {
             alt='misskey'
             />
             <LinkCardName name='okaka misskey2' id='okaka misskey2' />
+          </LinkCard>
+          <LinkCard
+          className='grid gap-3 col-span-6 md:col-span-3 lg:col-span-2 hover:border-xbox p-6'
+          href='https://qiita.com/okakajp_25'
+          >
+            <img
+            className='w-10 h-10 rounded-2x1'
+            src='/icons/qiita.png'
+            alt='qitta'
+            />
+            <LinkCardName name='okaka qiita' id='okaka qiita' />
           </LinkCard>
           <LinkCard
           className='grid gap-3 col-span-6 md:col-span-3 lg:col-span-2 hover:border-xbox p-6'
