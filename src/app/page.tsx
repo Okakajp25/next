@@ -106,7 +106,7 @@ export default function Home() {
             src='/icons/misskey.png'
             alt='misskey'
             />
-            <LinkCardName name='okaka misskey' id='okaka misskey' />
+            <LinkCardName name='okaka misskey(old account)' id='okaka misskey(old account' />
           </LinkCard>
           <LinkCard
           className='grid gap-3 col-span-6 md:col-span-3 lg:col-span-2 hover:border-xbox p-6'
@@ -117,7 +117,7 @@ export default function Home() {
             src='/icons/misskey.png'
             alt='misskey'
             />
-            <LinkCardName name='okaka misskey2' id='okaka misskey2' />
+            <LinkCardName name='okaka misskey(main account)' id='okaka misskey(main account)' />
           </LinkCard>
           <LinkCard
           className='grid gap-3 col-span-6 md:col-span-3 lg:col-span-2 hover:border-xbox p-6'
