@@ -103,9 +103,11 @@ export default function Home() {
             href='https://bsky.app/profile/okakey.com'
             isGrid
           >
-            <LinkCardIcon className='bg-discord'>
-              <PiButterfly size={25}/>
-            </LinkCardIcon>
+            <img
+            className='w-10 h-10 rounded-2x1'
+            src='/icons/Bluesky_Logo.svg'
+            alt='bluesky'
+            />
             <LinkCardName name='okaka bluesky' id='okaka bluesky' />
           </LinkCard>
           <LinkCard
@@ -113,9 +115,11 @@ export default function Home() {
             href='https://bsky.app/profile/count.jp.okakey.com'
             isGrid
           >
-            <LinkCardIcon className='bg-discord'>
-              <PiButterfly size={25}/>
-            </LinkCardIcon>
+            <img
+            className='w-10 h-10 rounded-2x1'
+            src='/icons/Bluesky_Logo.svg'
+            alt='bluesky'
+            />
             <LinkCardName name='countdown bot bluesky' id='count down bot bluesky' />
           </LinkCard>
           <LinkCard
