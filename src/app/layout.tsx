@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+import { Metadata, Viewport } from 'next';
 import './globals.css';
 
 import Provider from './provider';
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: `%s - ${siteConfig.metadata.name}`,
   },
   description: siteConfig.metadata.description,
-  themeColor: '#007af8',
+  metadataBase: new URL(siteConfig.metadata.url),
   openGraph: {
     title: siteConfig.metadata.name,
     description: siteConfig.metadata.description,
@@ -32,9 +32,13 @@ export const metadata: Metadata = {
   }
 }
 
+export const viewport: Viewport = {
+  themeColor: '#007af8',
+}
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ja">
+    <html lang="ja" suppressHydrationWarning>
       <body className={notoSansJp.className}>
         <Provider>
           {children}

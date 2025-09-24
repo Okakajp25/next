@@ -36,15 +36,16 @@ export default function Home() {
               </div>
             </div>
           </FadeUpDiv>
-          <LinkCard 
-            className='col-span-12 md:col-span-6 lg:col-span-4 hover:border-youtube p-6'
-            href='https://youtube.com/@okakajp'
+          <LinkCard
+            className='col-span-6 md:col-span-3 lg:col-span-4 hover:border-discord p-6'
+            href='https://discord.gg/NEbh3x4sur'
             isGrid
           >
-            <LinkCardIcon className='bg-youtube'>
-              <FaYoutube size={25}/>
+            <LinkCardIcon className='bg-discord'>
+              <FaDiscord size={25} />
             </LinkCardIcon>
-            <LinkCardName name='YouTube' id='@okakajp'/>
+            <LinkCardName name='Discord' id='@okakajp'>
+            </LinkCardName>
           </LinkCard>
           <LinkCard
             className='col-span-6 md:col-span-3 lg:col-span-2 hover:border-twitter p-6'
@@ -57,15 +58,14 @@ export default function Home() {
             <LinkCardName name='Twitter' id='@okakajp25'/>
           </LinkCard>
           <LinkCard
-            className='col-span-6 md:col-span-3 lg:col-span-2 hover:border-discord p-6'
-            href='https://discord.gg/fbUhAxTAHx'
+            className='col-span-12 md:col-span-6 lg:col-span-2 hover:border-youtube p-6'
+            href='https://youtube.com/@okakajp'
             isGrid
           >
-            <LinkCardIcon className='bg-discord'>
-              <FaDiscord size={25}/>
+            <LinkCardIcon className='bg-youtube'>
+              <FaYoutube size={25} />
             </LinkCardIcon>
-            <LinkCardName name='Discord' id='@okakajp25'>
-            </LinkCardName>
+            <LinkCardName name='YouTube' id='@okakajp' />
           </LinkCard>
           <FadeUpCard className='grid gap-3 col-span-6 md:col-span-3 lg:col-span-2 hover:border-xbox p-6'>
             <LinkCardIcon className='bg-xbox'>
@@ -177,8 +177,20 @@ export default function Home() {
             <LinkCardName name='okaka note' id='okaka note' />
           </LinkCard>
           <LinkCard
-            className='col-span-12 md:col-span-6 lg:col-span-4 hover:border-black dark:hover:border-gray-500 p-6'
-            href='https://servers.okakey.com/'
+            className='col-span-12 md:col-span-6 lg:col-span-3 hover:border-black dark:hover:border-gray-500 p-6'
+            href='/servers'
+            isGrid
+          >
+            <img
+              className='w-10 h-10 rounded-2x1'
+              src='/icons/IMG_8726.png'
+              alt='okaka server list'
+            />
+            <LinkCardName name='自分のサービスのステータス' id='自分のサービスのステータスページです' />
+          </LinkCard>
+          <LinkCard
+            className='col-span-12 md:col-span-6 lg:col-span-3 hover:border-black dark:hover:border-gray-500 p-6'
+            href='/servers'
             isGrid
           >
             <img
@@ -186,7 +198,7 @@ export default function Home() {
             src='/icons/IMG_8726.png'
             alt='okaka server list'
             />
-            <LinkCardName name='自分が少しでも携わっているサーバー' id='自分が少しでも携わっているサーバーのリストです' />
+            <LinkCardName name='自分が少しでも携わっているサーバー' id='自分が携わっているサーバーのリストです' />
           </LinkCard>
         </div>
       </FadeUpStagger>

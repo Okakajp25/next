@@ -7,7 +7,12 @@ import { ThemeProvider } from 'next-themes';
 export default function Provider({ children }: { children: React.ReactNode }) {
   return (
     <AnimatePresence mode='wait'>
-      <ThemeProvider attribute='class' defaultTheme='dark' enableSystem>
+      <ThemeProvider 
+        attribute='class' 
+        defaultTheme='dark' 
+        enableSystem
+        disableTransitionOnChange
+      >
         {children}
       </ThemeProvider>
     </AnimatePresence>

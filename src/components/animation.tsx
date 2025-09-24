@@ -6,7 +6,7 @@ import { cn } from '@/lib/utils';
 
 const FADE_UP_ANIMATION_VARIANTS = {
   hidden: { opacity: 0, y: 10 },
-  show: { opacity: 1, y: 0, transition: { type: 'spring' } },
+  show: { opacity: 1, y: 0, transition: { type: 'spring' as const } },
 };
 
 const FadeUpStagger = ({ children }: { children: React.ReactNode }) => {
