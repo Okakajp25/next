@@ -178,7 +178,7 @@ export default function Home() {
           </LinkCard>
           <LinkCard
             className='col-span-12 md:col-span-6 lg:col-span-3 hover:border-black dark:hover:border-gray-500 p-6'
-            href='/servers'
+            href='https://okakey.instatus.com/'
             isGrid
           >
             <img
