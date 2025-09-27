@@ -62,6 +62,16 @@ const servers: ServerInfo[] = [
     role: '技術部 副リーダー'
   },
   {
+    id: 'karo',
+    name: 'かろEarth',
+    description: 'Minecraft 地球型建国サーバー',
+    url: 'https://discord.gg/EJtfmR48xs',
+    iconPath: 'icon', // アイコンコンポーネントを使用
+    category: 'game',
+    status: 'active',
+    role: 'Admin'
+  },
+  {
     id: 'babel',
     name: 'Babel Server',
     description: 'Minecraft 採掘サーバー',
