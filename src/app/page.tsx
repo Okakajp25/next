@@ -44,7 +44,7 @@ export default function Home() {
             <LinkCardIcon className='bg-discord'>
               <FaDiscord size={25} />
             </LinkCardIcon>
-            <LinkCardName name='Discord' id='@okakajp'>
+            <LinkCardName name='Discord' id='おかかの自鯖。おかさば'>
             </LinkCardName>
           </LinkCard>
           <LinkCard

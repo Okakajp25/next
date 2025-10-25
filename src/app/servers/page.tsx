@@ -78,7 +78,7 @@ const servers: ServerInfo[] = [
     url: 'https://discord.gg/EJtfmR48xs',
     iconPath: 'icon', // アイコンコンポーネントを使用
     category: 'game',
-    status: 'active',
+    status: 'inactive',
     role: 'Admin'
   },
   {
