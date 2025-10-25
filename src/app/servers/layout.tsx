@@ -16,7 +16,6 @@ export const metadata: Metadata = {
     title: '運営サーバー一覧 - ' + siteConfig.metadata.name,
     description: 'Okakajpが運営・管理に携わっているサーバーの一覧ページです。',
     site: '@okakajp25',
-    creator: '@nonick_mc',
   }
 };
 

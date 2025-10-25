@@ -52,6 +52,16 @@ const servers: ServerInfo[] = [
     role: '運営者'
   },
   {
+    id: 'babel',
+    name: 'Babel Server',
+    description: 'Minecraft 採掘サーバー',
+    url: 'https://discord.gg/Vscj3PSzKp',
+    iconPath: 'icon', // アイコンコンポーネントを使用
+    category: 'game',
+    status: 'active',
+    role: '技術部技術役・対応部執行役'
+  },
+  {
     id: 'illumina',
     name: 'IlluminaOrigin',
     description: 'Minecraft RPGサーバー',
@@ -72,14 +82,14 @@ const servers: ServerInfo[] = [
     role: 'Admin'
   },
   {
-    id: 'babel',
-    name: 'Babel Server',
-    description: 'Minecraft 採掘サーバー',
-    url: 'https://discord.gg/Vscj3PSzKp',
+    id: 'marv',
+    name: 'MARV',
+    description: 'Minecraft Java&BE版 で遊べる建国アースサーバー',
+    url: 'https://discord.gg/vEjzunKRx5',
     iconPath: 'icon', // アイコンコンポーネントを使用
     category: 'game',
     status: 'active',
-    role: '技術部技術役・対応部執行役'
+    role: 'Staff'
   },
   {
     id: 'hima',
