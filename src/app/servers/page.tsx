@@ -19,7 +19,6 @@ interface ServerInfo {
   role: string; // 運営での役割
 }
 
-// サーバー一覧データ（実際のデータに置き換えてください）
 const servers: ServerInfo[] = [
   {
     id: 'okakey',
@@ -144,7 +143,6 @@ const servers: ServerInfo[] = [
   
 ];
 
-// カテゴリ別のアイコンとスタイル
 const getCategoryStyle = (category: ServerInfo['category']) => {
   switch (category) {
     case 'minecraft':
