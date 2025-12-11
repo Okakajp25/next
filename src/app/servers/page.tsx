@@ -78,7 +78,7 @@ const servers: ServerInfo[] = [
     iconPath: 'icon', // アイコンコンポーネントを使用
     category: 'game',
     status: 'inactive',
-    role: 'Admin'
+    role: 'Developer'
   },
   {
     id: 'marv',
