@@ -6,6 +6,7 @@ import { LinkCard } from '@/components/link-card';
 import { DiscordPartnerIcon } from '@/components/logo';
 import { ThemeToggle } from '@/components/theme-toggle';
 import { FaBirthdayCake, FaDiscord, FaGithub, FaLocationArrow, FaSteam, FaTwitter, FaUserGraduate, FaXbox, FaYoutube } from 'react-icons/fa';
+import { FaUserGroup } from "react-icons/fa6";
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
             <img className='w-[150px] lg:w-[200px] pointer-events-none rounded-full shadow-xl' src='/icons/nonick.png' alt="nonick's avatar"/>
             <section>
               <h1 className='text-3xl lg:text-4xl font-black'>Okakajp</h1>
-              <h2 className='text-muted-foreground text-lg lg:text-xl'>にわかプログラマー</h2>
+              <h2 className='text-muted-foreground text-lg lg:text-xl'>Software Developer</h2>
             </section>
             <div className='grid gap-1'>
               <div className='flex gap-2 items-center text-muted-foreground'>
@@ -34,10 +35,24 @@ export default function Home() {
                 <FaUserGraduate/>
                 <p>学生</p>
               </div>
+              <div className='flex gap-2 items-center text-muted-foreground'>
+                <FaUserGroup/>
+                <p>Okakey</p>
+              </div>
             </div>
           </FadeUpDiv>
           <LinkCard
-            className='col-span-6 md:col-span-3 lg:col-span-4 hover:border-discord p-6'
+              className='col-span-6 md:col-span-3 lg:col-span-2 hover:border-orange-500 p-6'
+              href=''
+              isGrid
+          >
+            <LinkCardIcon className='bg-orange-400'>
+              <FaUserGroup size={25}/>
+            </LinkCardIcon>
+            <LinkCardName name='Okakey' id='Individual IT Org'/>
+          </LinkCard>
+          <LinkCard
+            className='col-span-6 md:col-span-3 lg:col-span-3 hover:border-discord p-6'
             href='https://discord.gg/NEbh3x4sur'
             isGrid
           >
@@ -46,6 +61,22 @@ export default function Home() {
             </LinkCardIcon>
             <LinkCardName name='Discord' id='おかかの自鯖。おかさば'>
             </LinkCardName>
+          </LinkCard>
+
+          <LinkCard
+              className='flex justify-between col-span-12 md:col-span-6 lg:col-span-3 hover:border-black dark:hover:border-gray-500 p-6'
+              href='https://github.com/Okakajp25'
+          >
+            <div className='grid gap-3'>
+              <LinkCardIcon className='bg-github'>
+                <FaGithub size={25}/>
+              </LinkCardIcon>
+              <LinkCardName name='GitHub' id='@okakajp25'/>
+            </div>
+            <div className='grid grid-cols-2 gap-3'>
+              <img className='w-8 h-8' src='/programLangs/JavaScript.svg' alt='javascript'/>
+              <img className='w-8 h-8' src='/programLangs/TypeScript.svg' alt='typescript'/>
+            </div>
           </LinkCard>
           <LinkCard
             className='col-span-6 md:col-span-3 lg:col-span-2 hover:border-twitter p-6'
@@ -83,21 +114,6 @@ export default function Home() {
             <LinkCardName name='Steam' id='Okakajp'/>
           </LinkCard>
           <LinkCard
-            className='flex justify-between col-span-12 md:col-span-6 lg:col-span-4 hover:border-black dark:hover:border-gray-500 p-6'
-            href='https://github.com/Okakajp25'
-          >
-            <div className='grid gap-3'>
-              <LinkCardIcon className='bg-github'>
-                <FaGithub size={25}/>
-              </LinkCardIcon>
-              <LinkCardName name='GitHub' id='@okakajp25'/>
-            </div>
-            <div className='grid grid-cols-2 gap-3'>
-              <img className='w-8 h-8' src='/programLangs/JavaScript.svg' alt='javascript'/>
-              <img className='w-8 h-8' src='/programLangs/TypeScript.svg' alt='typescript'/>
-            </div>
-          </LinkCard>
-          <LinkCard
             className='grid gap-3 col-span-6 md:col-span-3 lg:col-span-2 hover:border-discord p-6'
             href='https://bsky.app/profile/okakey.com'
             isGrid
@@ -120,17 +136,6 @@ export default function Home() {
             alt='bluesky'
             />
             <LinkCardName name='countdown bot bluesky' id='count down bot bluesky' />
-          </LinkCard>
-          <LinkCard
-          className='grid gap-3 col-span-6 md:col-span-3 lg:col-span-2 hover:border-xbox p-6'
-          href='https://misskey.io/@okakajp'
-          >
-            <img
-            className='w-10 h-10 rounded-2x1'
-            src='/icons/misskey.png'
-            alt='misskey'
-            />
-            <LinkCardName name='okaka misskey(old account)' id='okaka misskey(old account' />
           </LinkCard>
           <LinkCard
           className='grid gap-3 col-span-6 md:col-span-3 lg:col-span-2 hover:border-xbox p-6'
