@@ -6,6 +6,7 @@ import { LinkCard } from '@/components/link-card';
 import { DiscordPartnerIcon } from '@/components/logo';
 import { ThemeToggle } from '@/components/theme-toggle';
 import { FaBirthdayCake, FaDiscord, FaGithub, FaLocationArrow, FaSteam, FaTwitter, FaUserGraduate, FaXbox, FaYoutube } from 'react-icons/fa';
+import { MdEmail } from "react-icons/md";
 import { FaUserGroup } from "react-icons/fa6";
 
 export default function Home() {
@@ -38,6 +39,10 @@ export default function Home() {
               <div className='flex gap-2 items-center text-muted-foreground'>
                 <FaUserGroup/>
                 <p>Okakey</p>
+              </div>
+              <div className='flex gap-2 items-center text-muted-foreground'>
+                <MdEmail/>
+                <p>raw[at]okakey.com</p>
               </div>
             </div>
           </FadeUpDiv>
